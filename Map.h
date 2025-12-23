@@ -23,6 +23,10 @@ class Map {
 
 
     public:
+
+    int getWidth() const;
+    int getHeight() const;
+    
     Map(); // constructor to initialize the map and pellets
     ~Map(); // destructor to clean up dynamic memory
 

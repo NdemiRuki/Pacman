@@ -8,13 +8,12 @@
 
 
 
-enum TileType { WALL, PATH, TUNNEL, EMPTY };
-enum PelletState { EATEN, NOT_EATEN, POWER_PELLET };
+
 
 class Pacman {
 public:
 
-    Pacman(int startX, int startY, Ghosts* ghostArray, int numGhosts);
+    Pacman(double startX, double startY, Ghosts* ghostArray, int numGhosts);
 
     void move(int dx, int dy , Map &map);
     void setDirection(int dx, int dy);
@@ -36,7 +35,7 @@ public:
     int getScore() const { return score; }
 
 private:
-    int x, y; // Current position
+    double x, y; // Current position
     double startX, startY; // Respawn position
     int dirX, dirY; // Current direction
     int lives; // Remaining lives

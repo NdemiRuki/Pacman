@@ -11,7 +11,7 @@ using namespace std;
 
 class Map; // Forward declaration
 
-Pacman::Pacman(int startX, int startY, Ghosts* ghostArray, int numGhosts){
+Pacman::Pacman(double startX, double startY, Ghosts* ghostArray, int numGhosts){
 
     
 
@@ -28,7 +28,7 @@ Pacman::Pacman(int startX, int startY, Ghosts* ghostArray, int numGhosts){
     score = 0;
 
         // Initialize member variables //
-    this->ghosts = ghostArray;
+    this->ghostArray = ghostArray;
     this->numGhosts = numGhosts;
 }
 
