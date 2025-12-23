@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <cstdio>
+#include <string>
 
 #include "windows.h"
 #include "2D_graphics.h"
@@ -146,9 +147,9 @@ int main(){
         }
 
         // score & lives display //
-        char buffer[32];
-        sprintf_s(buffer, "Score: %d", pacman.getScore());
-        text(buffer, 10, 10, 1.0);  
+        
+    string scoreText = "Score: " + std::to_string(pacman.getScore());
+    text((char*)scoreText.c_str(), 10, 10, 1.0);  
 
          int lives = pacman.getLives();
         for(int i = 0; i < lives; i++){

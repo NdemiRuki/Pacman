@@ -9,11 +9,6 @@
 
 using namespace std;
 
-    const int TILE_SIZE   = 32;
-    const int MAZE_WIDTH  = 28;
-    const int MAZE_HEIGHT = 31;
-    const int PACMAN_RADIUS = 14;
-
 class Map; // Forward declaration
 
 Pacman::Pacman(int startX, int startY, Ghosts* ghostArray, int numGhosts){

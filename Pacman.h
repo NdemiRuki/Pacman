@@ -24,6 +24,7 @@ public:
     void respawn();
     void setGhostVulnerable(int duration);
 
+
     // void eatPellet(); 
     // void eatPowerUp(); 
 
