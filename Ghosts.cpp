@@ -4,11 +4,9 @@
 #include <cstdio>
 #include <cstdlib>
 #include "Pacman.h"
+#include "Gamedefs.h"
+#include "Map.h"
 
-
-const int TILE_SIZE = 32;  
-const int MAP_WIDTH = 28;   
-const int MAP_HEIGHT = 31;// These are critical since they allow my program to run since I need to fix thses values 
 
 class Map 
 {

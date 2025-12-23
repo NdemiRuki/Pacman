@@ -3,14 +3,13 @@
 
 #include <string>
 #include <vector>
+#include "Gamedefs.h"
 
 // Simple tile-based Map for Pac-Man
 // - Loads from a text file or from a vector of strings
 // - Exposes tile queries, pellet tracking, and spawn-finding
 
-const int TILE_SIZE   = 32;
-const int MAZE_WIDTH  = 28;
-const int MAZE_HEIGHT = 31;
+
 
 enum TileType { WALL, PATH, TUNNEL, EMPTY };
 enum PelletState { EATEN, NOT_EATEN, POWER_PELLET };

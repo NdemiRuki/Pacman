@@ -5,6 +5,7 @@
 #include "windows.h"
 #include "2D_graphics.h"
 #include "Map.h"
+#include "Gamedefs.h"
 
 using namespace std;
 

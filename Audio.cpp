@@ -3,6 +3,7 @@
 #include <cmath>
 #include <windows.h> // has all the audio stuff in it
 #include <cstdio>
+#include "Gamedefs.h"
 pragma comment(lib, "winmm.lib") // This is key for playing audio files
 
 
