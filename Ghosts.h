@@ -2,6 +2,8 @@
 #include <cmath>
 #include <iostream>
 #include <cstdlib>
+#include "Gamedefs.h"
+#include "Pacman.h"
 // #include "pacman.cpp" need to find the right name after Ndemeire pushed it
 
 enum ghost_mode { CHASE, SCATTERED, FRIGHTENED }; // enumurate the  3different ghost modes
