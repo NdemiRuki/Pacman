@@ -12,3 +12,5 @@ const int NUM_GHOSTS = 4;
 
 const double PI = 3.141592653589793;
 const double PIXELS_PER_FRAME = 1.0;
+
+extern int frameCount;

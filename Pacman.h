@@ -4,9 +4,9 @@
 #include "Map.h"
 #include "Ghosts.h"
 
-#pragma once
 
-extern int frameCount;
+
+
 
 enum TileType { WALL, PATH, TUNNEL, EMPTY };
 enum PelletState { EATEN, NOT_EATEN, POWER_PELLET };
