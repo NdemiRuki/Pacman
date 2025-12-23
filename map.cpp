@@ -2,6 +2,11 @@
 #include <iostream>
 #include <fstream>
 #include "2D_graphics.h"
+#include "Gamedefs.h"
+#include "Pacman.h"
+#include "Ghosts.h"
+#include "Audio.h"
+
 
 using namespace std;
 
